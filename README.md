@@ -17,13 +17,18 @@ git clone https://github.com/yourusername/ticket-bot.git
 cd ticket-bot
 pip install discord.py aiosqlite python-dotenv
 ```
-### **Step 2: Configure Config.py**
+### **Step 2: Configure .env**
 ``` 
 DISCORD_BOT_TOKEN=your_bot_token_here
 GUILD_ID=your_server_id_here
 ```
+### **Step 3: Configure config.py
+```
+DISCORD_BOT_TOKEN=your_bot_token_here
+GUILD_ID=your_server_id_here
+```
 
-### **Step 3: Run The Bot!**
+### **Step 4: Run The Bot!**
 ```
 python main.py
 ```
